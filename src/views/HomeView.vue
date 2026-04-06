@@ -2,7 +2,7 @@
   <div class="dashboard">
     <!-- Header -->
     <header class="header">
-      <h1 class="title">Jenkins Pipeline Monitor</h1>
+      <h1 class="title">Jenkins Pipeline Monitor1</h1>
       <div class="status-dot" :class="globalStatus"></div>
     </header>
 
