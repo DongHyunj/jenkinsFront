@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <div class="card">
-      <h1 class="title">CI/CD Test v7</h1>
+      <h1 class="title">CI/CD Test v8</h1>
       <p class="subtitle">백엔드 연결 테스트</p>
 
       <button class="btn" :class="{ loading: isLoading }" :disabled="isLoading" @click="fetchTest">
