@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <div class="card">
-      <h1 class="title">CI/CD Test v6</h1>
+      <h1 class="title">CI/CD Test v7</h1>
       <p class="subtitle">백엔드 연결 테스트</p>
 
       <button class="btn" :class="{ loading: isLoading }" :disabled="isLoading" @click="fetchTest">
@@ -31,7 +31,7 @@ async function fetchTest() {
   response.value = null
   isError.value = false
   try {
-    const res = await fetch('http://10.10.10.202/cicd/test')
+    const res = await fetch('http://10.10.10.202:8080/cicd/test')
     const text = await res.text()
     response.value = text
     isError.value = !res.ok
